@@ -6,12 +6,11 @@
 }
 
 body {
-    background-color: #DF6F97;
+    background-color: #f6b6bd;
     font-family: "Sofia Sans", "Jost", Arial, Helvetica, sans-serif;
 }
 
 .icon {
-    clip-path: inset(15%);
     width: 30%;
     height: 30%;
     margin-left: 10%;
@@ -22,7 +21,7 @@ body {
     width: 40%;
     height: 100vh;
     float: right;
-    background-color: #EFB7CB;
+    background-color: #ff92b8;
 }
 
 h1 {
@@ -58,13 +57,13 @@ button {
     margin-top: 35px;
     background-color: #65005A;
     color: #fff;
+    transition-duration: 1s;
 }
 
 button:hover {
     cursor: pointer;
     background-color: #830074bd;
     transform: scale(1.02);
-    transition-duration: 1s;
 }
 
 .forgotPassword {
@@ -110,7 +109,7 @@ a:hover {
 }
 
 .logo:hover {
-    background-color: #fff;
+    background-color: #cfcfcf;
     transform: scale(1.08);
 }
 
